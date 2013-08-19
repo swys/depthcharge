@@ -6,7 +6,7 @@
   deeply nested the subdirectory is as compared to the root directory.
 
   For example if `tmp/` is the root and `tmp/hello` is the subdirectory then the returned value would be `1`.
-  If there is an error it will return -1."
+  If there is an error it will return -1.",
   "main": "depthcharge.js",
   "directories": {
     "test": "test"
@@ -21,11 +21,18 @@
     "nested",
     "fs depth"
   ],
-  "author": "Kevin Carroll <abacus822@gmail.com>",
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/swys/depthcharge.git"
+  },
+  "author": {
+      "name" : "Kevin Carroll",
+      "email" : "abacus822@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "tape": "~1.0.x",
     "watercolor": "0.0.x",
-    "mkdirp": "~0.3.5"
+    "mkdirp": "~0.3.x"
   }
 }
