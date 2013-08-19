@@ -11,8 +11,9 @@ If there is an error it will return -1.
 install
 =======
 
-`npm install depthcharge`
-
+```
+npm install depthcharge
+```
 usage
 =====
 
@@ -33,7 +34,9 @@ The above code outputs `1` as the result.
 test
 ====
 
-`npm test`
+```
+npm test
+```
 
 Check the test directory for some more examples. You'll find a test that creates dirs 20 deep!
 
