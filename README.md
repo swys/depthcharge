@@ -24,7 +24,6 @@ var depthcharge = require('depthcharge'),
     result = depthcharge(root, sub);
 
 console.log("Result :",result);
-});
 ```
 
 The above code outputs `1` as the result.
