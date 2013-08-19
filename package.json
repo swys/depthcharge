@@ -1,7 +1,12 @@
 {
   "name": "depthcharge",
   "version": "0.0.0",
-  "description": "depthcharge is a function that will take in a root directory and a subdirectory as arguments and output an integer depth that represents how deeply nested the subdirectory is. If there is an error it will return -1.",
+  "description": "depthcharge is a function that will take in a root directory and a
+  subdirectory as arguments and output an integer depth. The depth represents how
+  deeply nested the subdirectory is as compared to the root directory.
+
+  For example if `tmp/` is the root and `tmp/hello` is the subdirectory then the returned value would be `1`.
+  If there is an error it will return -1."
   "main": "depthcharge.js",
   "directories": {
     "test": "test"
