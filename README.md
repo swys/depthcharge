@@ -18,7 +18,7 @@ usage
 =====
 
 ```
-var depthcharge = require('../depthcharge.js'),
+var depthcharge = require('depthcharge'),
     root = '../',
     sub = './',
     result = depthcharge(root, sub);
