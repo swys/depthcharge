@@ -11,8 +11,6 @@ module.exports = function Depthcharge(root, subDir) {
         return depth;
     }
     base.forEach(function(part, i) {
-        //console.log("Part :",part);
-        //console.log("Level :",level[i]);
         if (part !== level[i]) {
             return -1;
         }
